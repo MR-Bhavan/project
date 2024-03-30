@@ -1,0 +1,35 @@
+.banner {
+  text-align: center;
+  padding: 5px 0px 5px 0;
+  margin: 0 0px 50px 150px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.5s;
+  border-radius: 25px;
+  width: 800px;
+}
+.banner img {
+  width: 715px;
+  height: 170px;
+}
+.banner:hover{
+  background-color: rgb(175, 175, 175);
+}
+.last-card {
+  text-align: center;
+  padding: 0 0 0 0;
+}
+.bg-colour{
+  color: rgb(0, 0, 194);
+}
+.navbar-brand{
+  font-weight: bold;
+}
+.bg-img{
+  background-image: url(./image/bg-img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(124 166 183) !important;
+}
